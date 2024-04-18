@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server , {
     cors: {
-        origin: "https://code-among-frontend.vercel.app",
+        origin: "https://codeamong.vercel.app/",
         methods: ["GET" , "POST"],
     },
 });
